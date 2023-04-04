@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 function getJsonData(req, res) {
-  const filePath = './app/data/Jaringan_Irigasi_84.geojson'; // Replace with the path to your JSON file
+  const filePath = './app/data/Jaringan_Irigasi_84.json'; // Replace with the path to your JSON file
     fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
         console.error(err);
